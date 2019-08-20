@@ -19,7 +19,7 @@ The followings are the main motivations for the script "dateTimeUpdate.sh"
 ```
 You can add a folder to the path bu editing your .bash_profile file:
 ```shell
-    PATH="/Library/PostgreSQL/11/bin/:${PATH}"
+    PATH="/Library/dateTimeUpdate/:${PATH}"
 ```
 
 - For Windows. The usual solution inthis case is first to install cygwin from https://www.cygwin.com/ and then you do the installation as in any other Unix platform.
