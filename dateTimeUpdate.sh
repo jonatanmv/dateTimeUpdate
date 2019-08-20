@@ -11,7 +11,7 @@ usage() {
     echo
     echo "$0 [-d <date> \"<pattern1>\"] [-e \"<ext1> <ext2>\"] [-t \"<pattern2>\"]"
     echo
-    echo "Where:"
+    echo "Where you choose one of the options at a time (-d, -e or -t):"
     echo
     echo "    -d: Script will append <date> to files from pattern <pattern>"
     echo "        <date>: Date as YYYYMMDD (useful for use later with \"-t\" option)."

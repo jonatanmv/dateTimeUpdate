@@ -14,7 +14,12 @@ The followings are the main motivations for the script "dateTimeUpdate.sh"
 
 - For Unix type systems (MacOS, Linux, Solaris, etc...). Copy the script dateTimeUpdate.sh into a folder in your filesystem. Add that folde to your path if needed or just call the script using the full path to the archive, for example:
 ```shell
+
     /home/applications/dateTimeUpdate.sh -e mpg mp4
+```
+You can add a folder to the path bu editing your .bash_profile file:
+```shell
+    PATH="/Library/PostgreSQL/11/bin/:${PATH}"
 ```
 
 - For Windows. The usual solution inthis case is first to install cygwin from https://www.cygwin.com/ and then you do the installation as in any other Unix platform.
