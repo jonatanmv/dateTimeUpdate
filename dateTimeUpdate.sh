@@ -1,8 +1,8 @@
 #!/bin/sh
 IFS_orig=$IFS # Internal field separator original
 
-#
-# Author: Jonatan Morales <jonatan.mv@gmail.com>
+__author__ = "Jonatan Morales"
+
 #
 # Summary: Updates the file creation date of for example a bunch of multimedia files.
 #
@@ -62,8 +62,8 @@ do
 	    	exit -1
 	    fi
 	    date=$arg1
-	    pattern=$arg2	
-	    #echo "Parameter: -$opt. Append $date to filenames $pattern."   
+	    pattern=$arg2
+	    #echo "Parameter: -$opt. Append $date to filenames $pattern."
 	    IFS="$(printf '\n\t')"
 		for filename in $(ls -1 $pattern)
 	    do
@@ -105,7 +105,7 @@ do
 	    done
 	    IFS=IFS_orig
 	    exit
-	    ;; 
+	    ;;
 	t)
 	    arg1=$OPTARG
 	    pattern=$arg1
@@ -134,4 +134,3 @@ do
 done
 
 exit
-
