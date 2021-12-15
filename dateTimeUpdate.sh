@@ -2,6 +2,7 @@
 IFS_orig=$IFS # Internal field separator original
 
 __author__ = "Jonatan Morales"
+__version__ = "20100820"
 
 #
 # Summary: Updates the file creation date of for example a bunch of multimedia files.
